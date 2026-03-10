@@ -40,7 +40,7 @@ const events = {
       "Quiz Competition",
       "Paper Presentation"
     ],
-    coordinator: "Mr. Rathak A.A - 8080662001",
+    coordinator: "Mr. Pathak A.A - 8080662001",
     studentCoordinator: "Pandit Vedant - 9309754250"
   },
   Electronics: {
