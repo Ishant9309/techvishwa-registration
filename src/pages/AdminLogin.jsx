@@ -326,7 +326,7 @@ function AdminLogin() {
             {/* Forgot Password Link */}
             <div style={styles.forgotPassword}>
               <a 
-                href="" 
+                <a href="/admin-login">Back</a> 
                 style={styles.forgotLink}
                 onMouseEnter={(e) => e.target.style.color = "#ff3366"}
                 onMouseLeave={(e) => e.target.style.color = "rgba(255, 255, 255, 0.5)"}
