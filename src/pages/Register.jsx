@@ -9,8 +9,8 @@ const events = {
   Civil: {
     title: "Civista 2K26",
     events: [
-      "Poster Presentations",
-      "Alternative Building Material",
+      "Poster Presentation on Green Building and Sustainable Construction",
+      "Poster Presentation on Technology vs Humanity",
       "Technical Rangoli"
     ],
     coordinator: "Ms. Tuppekar R.G - 8625820923",
@@ -29,7 +29,7 @@ const events = {
     title: "Electrika 2K26",
     events: [
       "Technical Mini Project Exhibition",
-      "Opposite Hand Mehndi Competition"
+      "Opposite Hand Mehndi Competition(for girls)"
     ],
     coordinator: "Mr. Shingarpurtale B.G - 9011962541",
     studentCoordinator: "Kamble Pravin - 8459216890"
@@ -46,10 +46,10 @@ const events = {
   Electronics: {
     title: "Electro Influez 2K26",
     events: [
-      "Poster Presentation",
-      "Microcontroller & Embedded System",
-      "Internet Of Things",
-      "Artificial Intelligence Quiz"
+      "Poster Presentation on Microcontroller & Embedded System",
+      "Poster Presentation on Internet Of Things",
+      "Poster Presentation on Artificial Intelligence",
+      "Quiz Compitation"
     ],
     coordinator: "Mrs. Dawkar C.K - 9960531196",
     studentCoordinator: "Shriyush Yekare - 8658333832"
@@ -636,11 +636,11 @@ function Register() {
                   style={styles.select}
                 >
                   <option value="" style={{background: "#1a1a2e"}}>Select Department</option>
-                  <option value="Civil" style={{background: "#1a1a2e"}}>Civil Engineering</option>
-                  <option value="Computer" style={{background: "#1a1a2e"}}>Computer & IT</option>
-                  <option value="Electrical" style={{background: "#1a1a2e"}}>Electrical Engineering</option>
-                  <option value="Mechanical" style={{background: "#1a1a2e"}}>Mechanical Engineering</option>
-                  <option value="Electronics" style={{background: "#1a1a2e"}}>Electronics Engineering</option>
+                  <option value="Civil" style={{background: "#1a1a2e"}}>Civil Engineering (Civista 2K26)</option>
+                  <option value="Computer" style={{background: "#1a1a2e"}}>Computer & IT (Code Busters)</option>
+                  <option value="Electrical" style={{background: "#1a1a2e"}}>Electrical Engineering (Electrika 2K26)</option>
+                  <option value="Mechanical" style={{background: "#1a1a2e"}}>Mechanical Engineering (Mechano 2K26)</option>
+                  <option value="Electronics" style={{background: "#1a1a2e"}}>Electronics Engineering (Electro Influez 2K26)</option>
                 </select>
               </div>
 
